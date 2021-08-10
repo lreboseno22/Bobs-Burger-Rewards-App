@@ -1,0 +1,99 @@
+body {
+	background-color: #292929;
+}
+
+input:hover {
+	cursor: pointer;
+    outline: none;
+  	border-color: green;
+}
+
+
+h2 {
+	color: white;
+    font-size: 42px;
+}
+
+h1 {
+	color: yellow;
+    font-weight: bold;
+}
+
+p {
+	color: white;
+    font-size: 18px;
+}
+
+li {
+	color: white;
+    font-size: 22px;
+    margin: 2px;
+    transition: 0.25s;
+}
+
+li:hover {
+	color: yellow;
+    cursor: pointer;
+}
+
+.image {
+	height: 380px;
+}
+
+.header {
+    margin-top: 3%;
+	text-align: center;	
+}
+
+.menu {    
+    margin: 5%;
+    padding: 3%;    
+    width: 50%;
+    border-radius: 5%;
+	border: 3px yellow solid;
+    margin: auto;
+}
+
+.flex {
+	display: flex;
+    justify-content: space-evenly;
+}
+
+.container {
+	border: 3px red solid;
+    border-radius: 5%;
+    padding: 3%;
+}
+
+
+.button:hover {
+	background-color: green;
+}
+
+.cart {
+	width: 250px;
+}
+
+.items-in-cart {
+	font-size: 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.total {
+    border: 3px yellow solid;
+    text-align: center;
+    border-radius: 5%;
+    padding: 5%;
+    width: 50%;
+    margin: auto;
+    display: none;
+}
+
+.total-cost {
+	color: yellow;
+}
+
+.total-rewards {
+	color: yellow;
+}
