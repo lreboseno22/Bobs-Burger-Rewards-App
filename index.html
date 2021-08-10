@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bob's Burger Rewards App</title>
+        <style type="text/css">
+         li{
+            list-style: none;
+        }
+           </style>
+    </head>
+    <body>
+        <div class="header">
+        <h1>Bob's Burger Rewards App</h1>
+        <img src="https://us-east-1.linodeobjects.com/gunaxin/2013/01/BOB.jpg" class="image">
+</div><br><br>
+        <div class="menu">
+            <h2>Menu Items:</h2>
+            <ul>
+                <li> [ 1 ] Orginal Burger ... $5.00</li>                
+                <li> [ 2 ] Fries ... $2.00</li>
+                <li> [ 3 ] Beer ... $4.00</li>
+            </ul>
+            </div><br><br>
+        
+        <div class="flex">
+        <div class="order container">
+            <h2>Order Here:</h2>
+            <p>Enter the item(s) you would like to order:</p>
+            <br>
+            <input placeholder="Enter Item Number"> <button type="button" class="button add-to-cart">Add to Cart</button>
+            </div><br><br>
+        
+        <div class="checkout container">
+            <h2>Check Out Here:</h2>
+            <p>Items currently in your cart:</p>
+            <div class="cart">
+                <ol class="items-in-cart"></ol>
+                </div><br><br>
+            <button type="button" class="button check-out">Check Out</button>
+        </div>
+        </div><br><br>
+        
+            <div class="total">
+            <p>Your total cost is:</p>
+            <p class="total-cost">$0</p>
+            
+            <p>Number of rewards you've earned:</p>
+            <p class="total-rewards">0 points</p> 
+                <p class="reward"></p>
+                <p class="secret-reward"></p><br>
+                <button type="button" class="reset">Clear your register</button>
+        </div>
+
+    </body>
+</html>
